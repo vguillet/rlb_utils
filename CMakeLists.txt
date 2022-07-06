@@ -22,7 +22,7 @@ find_package(ament_cmake REQUIRED)
 # find_package(<dependency> REQUIRED)
 
 if(BUILD_TESTING)
-  find_package(ament_lint_auto REQUIRED)  
+  find_package(ament_lint_auto REQUIRED)
   find_package(geometry_msgs REQUIRED)
   find_package(rosidl_default_generators REQUIRED)
   # the following line skips the linter which checks for copyrights
@@ -31,11 +31,13 @@ if(BUILD_TESTING)
   # the following line skips cpplint (only works in a git repo)
   # uncomment the line when this package is not in a git repo
   #set(ament_cmake_cpplint_FOUND TRUE)
-  
+
   ament_lint_auto_find_test_dependencies()
 
   rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Goal.msg"
+  "msg/TeamComm.msg"
+
   DEPENDENCIES geometry_msgs
   )
 
