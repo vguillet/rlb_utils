@@ -37,6 +37,7 @@ if(BUILD_TESTING)
   rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Goal.msg"
   "msg/TeamComm.msg"
+  "msg/RLBInterrupt.msg"
 
   DEPENDENCIES geometry_msgs
   )
