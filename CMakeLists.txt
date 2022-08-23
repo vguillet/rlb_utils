@@ -38,6 +38,7 @@ if(BUILD_TESTING)
   "msg/Goal.msg"
   "msg/TeamComm.msg"
   "msg/RLBInterrupt.msg"
+  "msg/CommsState.msg"
 
   DEPENDENCIES geometry_msgs
   )

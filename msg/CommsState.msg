@@ -1,0 +1,3 @@
+string robot_id
+string comms_states
+string comms_matrix
