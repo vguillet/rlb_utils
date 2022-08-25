@@ -1,3 +1,7 @@
-string robot_id
+string source
+string source_type
+string target
+string target_type
 string type
-string memo 
+string data
+string memo
