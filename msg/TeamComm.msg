@@ -5,3 +5,4 @@ string target_type
 string type
 string data
 string memo
+string[] trace
